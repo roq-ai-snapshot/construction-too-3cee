@@ -1,0 +1,1382 @@
+[
+  {
+    "tool": [
+      {
+        "id": "03b980ce-2cf9-48d3-ba23-eab6aa2dce2f",
+        "name": "Tool A",
+        "availability": true,
+        "created_at": "2023-08-10T14:30:08.892Z",
+        "updated_at": "2023-08-10T12:06:59.780Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a77794a2-e716-41a1-8c3a-9826e4f5629a",
+        "name": "Tool B",
+        "availability": false,
+        "created_at": "2023-08-11T03:42:42.879Z",
+        "updated_at": "2023-08-10T11:43:36.415Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f135b0cc-9a41-4bd9-98bf-b781291bb0a7",
+        "name": "Tool C",
+        "availability": true,
+        "created_at": "2023-08-10T13:16:59.924Z",
+        "updated_at": "2023-08-10T10:00:10.948Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb766484-19e2-459d-8134-894b253dd315",
+        "name": "Tool D",
+        "availability": false,
+        "created_at": "2023-08-10T11:22:35.768Z",
+        "updated_at": "2023-08-10T23:00:43.284Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7356c8c9-7184-4985-8cf4-b1577f1abe1c",
+        "name": "Tool E",
+        "availability": true,
+        "created_at": "2023-08-11T00:43:21.078Z",
+        "updated_at": "2023-08-11T01:31:31.626Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8f934721-ce5f-4469-b1a6-d2adf4171ec7",
+        "rent_date": "2023-08-10T21:22:00.832Z",
+        "return_date": "2023-08-10T13:13:33.936Z",
+        "created_at": "2023-08-11T06:11:13.682Z",
+        "updated_at": "2023-08-10T16:45:44.913Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "f135b0cc-9a41-4bd9-98bf-b781291bb0a7"
+      },
+      {
+        "id": "6acb95d6-9f38-4219-a5bb-3d589ea1827d",
+        "rent_date": "2023-08-10T22:40:59.110Z",
+        "return_date": "2023-08-11T04:00:34.406Z",
+        "created_at": "2023-08-10T11:14:47.773Z",
+        "updated_at": "2023-08-10T18:30:53.717Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a77794a2-e716-41a1-8c3a-9826e4f5629a"
+      },
+      {
+        "id": "50371a7d-7828-48d9-8f92-480799a15ea6",
+        "rent_date": "2023-08-10T16:35:34.145Z",
+        "return_date": "2023-08-10T18:28:53.888Z",
+        "created_at": "2023-08-10T09:04:08.830Z",
+        "updated_at": "2023-08-11T01:43:52.091Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a77794a2-e716-41a1-8c3a-9826e4f5629a"
+      },
+      {
+        "id": "2ccbef0a-db31-4691-974a-21e2f3becc89",
+        "rent_date": "2023-08-10T11:52:36.818Z",
+        "return_date": "2023-08-10T22:56:32.114Z",
+        "created_at": "2023-08-10T12:17:45.110Z",
+        "updated_at": "2023-08-10T22:03:34.819Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "cb766484-19e2-459d-8134-894b253dd315"
+      },
+      {
+        "id": "d30be67e-a6a2-4ccc-a989-39436cfd6f84",
+        "rent_date": "2023-08-10T10:04:24.049Z",
+        "return_date": "2023-08-11T04:35:21.996Z",
+        "created_at": "2023-08-10T12:37:03.099Z",
+        "updated_at": "2023-08-10T20:02:35.613Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a77794a2-e716-41a1-8c3a-9826e4f5629a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "30d95baa-fbef-48f6-aaec-e5cc99ed3b45",
+        "email": "Hadley_Bauch-Runte@yahoo.com",
+        "firstName": "Nova",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/320.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "451e585b-5b91-4d68-b1b2-3d041a74ebe2",
+        "email": "Vincenzo_Reinger4@hotmail.com",
+        "firstName": "Ivory",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f669ce98-b4cd-4b74-9bfe-683e37a2ee25",
+        "email": "Marisol7@yahoo.com",
+        "firstName": "Amos",
+        "lastName": "Lind-Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69365363",
+        "tenantId": null
+      },
+      {
+        "reference": "33105b73-82d7-4c43-865a-98d5ca01eb13",
+        "email": "Laila_Barrows-Swift@hotmail.com",
+        "firstName": "Soledad",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46771184",
+        "tenantId": null
+      },
+      {
+        "reference": "9d43933c-cdc8-46e6-8302-2d9c6157e1af",
+        "email": "Timmy_Kutch@yahoo.com",
+        "firstName": "Emilia",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5668896",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "78c0abbb-3be4-4afb-ad11-a96a3a7ee2d0",
+        "name": "Tool A",
+        "availability": true,
+        "created_at": "2023-08-11T04:05:42.604Z",
+        "updated_at": "2023-08-11T02:12:19.540Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ec6cc7fc-ffc4-4676-b85f-0d597e42dd7a",
+        "name": "Tool B",
+        "availability": false,
+        "created_at": "2023-08-10T16:58:38.988Z",
+        "updated_at": "2023-08-11T01:18:15.521Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c1a2460a-42ba-44a2-8875-20dbf27b2887",
+        "name": "Tool C",
+        "availability": false,
+        "created_at": "2023-08-10T20:51:44.009Z",
+        "updated_at": "2023-08-11T03:25:17.456Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c6fa2d4c-6de2-4230-a8e7-2bfa67a5a67e",
+        "name": "Tool D",
+        "availability": false,
+        "created_at": "2023-08-10T19:59:39.418Z",
+        "updated_at": "2023-08-11T02:25:40.461Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac0ee47d-761c-4274-a482-f049ac235205",
+        "name": "Tool E",
+        "availability": false,
+        "created_at": "2023-08-10T23:52:58.069Z",
+        "updated_at": "2023-08-10T12:11:06.284Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "c237f98b-ec22-4771-8f49-f6ee5ae1d294",
+        "rent_date": "2023-08-11T03:33:17.677Z",
+        "return_date": "2023-08-10T14:24:16.741Z",
+        "created_at": "2023-08-10T13:54:05.835Z",
+        "updated_at": "2023-08-10T18:09:21.079Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ec6cc7fc-ffc4-4676-b85f-0d597e42dd7a"
+      },
+      {
+        "id": "d1bec917-93b6-4175-ae6f-95bce030fa46",
+        "rent_date": "2023-08-11T05:40:19.455Z",
+        "return_date": "2023-08-11T00:40:18.985Z",
+        "created_at": "2023-08-10T10:52:15.117Z",
+        "updated_at": "2023-08-10T18:02:02.528Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "c1a2460a-42ba-44a2-8875-20dbf27b2887"
+      },
+      {
+        "id": "370d65fa-438c-451f-94d0-d5a1e97457f3",
+        "rent_date": "2023-08-10T08:02:04.214Z",
+        "return_date": "2023-08-11T03:09:03.029Z",
+        "created_at": "2023-08-11T00:40:12.948Z",
+        "updated_at": "2023-08-10T18:05:22.238Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "c6fa2d4c-6de2-4230-a8e7-2bfa67a5a67e"
+      },
+      {
+        "id": "2944478f-5cda-4ea4-aed2-360bb3457605",
+        "rent_date": "2023-08-10T07:28:26.004Z",
+        "return_date": "2023-08-10T19:25:31.598Z",
+        "created_at": "2023-08-10T11:22:17.328Z",
+        "updated_at": "2023-08-10T22:24:22.475Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "78c0abbb-3be4-4afb-ad11-a96a3a7ee2d0"
+      },
+      {
+        "id": "57accc0f-7430-4db7-8bad-49bcd86ab689",
+        "rent_date": "2023-08-11T03:32:46.073Z",
+        "return_date": "2023-08-10T08:12:22.958Z",
+        "created_at": "2023-08-11T04:29:44.741Z",
+        "updated_at": "2023-08-11T04:37:47.298Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ac0ee47d-761c-4274-a482-f049ac235205"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "644ff3fa-7b15-4c2b-81f6-8fac4f84823d",
+        "email": "Urban44@gmail.com",
+        "firstName": "Sabrina",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5026956",
+        "tenantId": null
+      },
+      {
+        "reference": "242358ce-d56c-47cf-99cf-e130e8ed30c3",
+        "email": "Brandt3@gmail.com",
+        "firstName": "Kenyatta",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1147.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1d57be7e-039d-4bc7-a375-58b9da72d91b",
+        "email": "Pietro.Balistreri@hotmail.com",
+        "firstName": "Dallin",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7580982",
+        "tenantId": null
+      },
+      {
+        "reference": "a6a7bb28-8397-4f8f-ad97-886069d18e00",
+        "email": "Eliza.Shields76@yahoo.com",
+        "firstName": "Megane",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/883.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9c0a769-ef05-4f15-8400-7e3ae691072a",
+        "email": "Natasha_Lebsack@hotmail.com",
+        "firstName": "Akeem",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9291679",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "ff1e34bb-5865-4314-b3b4-46c224b90f38",
+        "name": "Tool A",
+        "availability": true,
+        "created_at": "2023-08-10T19:21:59.586Z",
+        "updated_at": "2023-08-10T23:02:04.342Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a32ab7c2-e16b-448e-a291-9dd61cdd8f10",
+        "name": "Tool B",
+        "availability": true,
+        "created_at": "2023-08-10T21:21:59.844Z",
+        "updated_at": "2023-08-11T03:46:01.362Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f22ed225-1382-4712-9f66-420df23cd4a5",
+        "name": "Tool C",
+        "availability": false,
+        "created_at": "2023-08-10T08:34:37.492Z",
+        "updated_at": "2023-08-10T19:16:30.721Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6d2c58a4-8c7a-4324-a335-83a015651db7",
+        "name": "Tool D",
+        "availability": false,
+        "created_at": "2023-08-10T20:36:04.850Z",
+        "updated_at": "2023-08-10T11:12:45.669Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b5ae60b4-d2c9-4e3d-a919-d59df4090ff4",
+        "name": "Tool E",
+        "availability": true,
+        "created_at": "2023-08-10T08:10:54.326Z",
+        "updated_at": "2023-08-10T19:46:59.271Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "37f06a46-ccbe-4e16-aeca-0ea9ecb0ac42",
+        "rent_date": "2023-08-10T19:29:53.991Z",
+        "return_date": "2023-08-10T15:48:07.824Z",
+        "created_at": "2023-08-11T03:54:31.276Z",
+        "updated_at": "2023-08-11T05:27:25.407Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "b5ae60b4-d2c9-4e3d-a919-d59df4090ff4"
+      },
+      {
+        "id": "0b059809-9a13-474a-a94c-12bea8d939de",
+        "rent_date": "2023-08-10T14:36:59.307Z",
+        "return_date": "2023-08-10T19:40:53.445Z",
+        "created_at": "2023-08-10T13:11:23.906Z",
+        "updated_at": "2023-08-10T20:44:17.626Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6d2c58a4-8c7a-4324-a335-83a015651db7"
+      },
+      {
+        "id": "c88dd7de-ab3c-45cc-ae05-2d625ff632d1",
+        "rent_date": "2023-08-10T07:41:46.137Z",
+        "return_date": "2023-08-11T05:05:45.653Z",
+        "created_at": "2023-08-11T06:16:21.433Z",
+        "updated_at": "2023-08-11T01:17:09.661Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6d2c58a4-8c7a-4324-a335-83a015651db7"
+      },
+      {
+        "id": "6dbb2363-3b7f-4fde-8502-e3be60d752ba",
+        "rent_date": "2023-08-11T00:42:41.142Z",
+        "return_date": "2023-08-10T08:30:28.598Z",
+        "created_at": "2023-08-10T22:29:10.921Z",
+        "updated_at": "2023-08-10T16:48:36.542Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a32ab7c2-e16b-448e-a291-9dd61cdd8f10"
+      },
+      {
+        "id": "00d5de17-87cf-47fc-bf75-8733266475d6",
+        "rent_date": "2023-08-10T12:56:18.709Z",
+        "return_date": "2023-08-10T20:54:16.410Z",
+        "created_at": "2023-08-11T05:00:30.781Z",
+        "updated_at": "2023-08-10T21:51:06.610Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "f22ed225-1382-4712-9f66-420df23cd4a5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e3212d8f-0dc2-4789-93cd-c1bedaf7bd37",
+        "email": "Wilford.Dicki@gmail.com",
+        "firstName": "Gino",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/16.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24fb0b9b-aa43-442c-9714-f43401f533bf",
+        "email": "Rose66@yahoo.com",
+        "firstName": "Jonas",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e34070e-f4c9-4665-af56-7a82bbbaf90b",
+        "email": "Martine_Weber67@gmail.com",
+        "firstName": "Cassandra",
+        "lastName": "Toy-Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/249.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d62a9e30-e168-4ee5-8df4-055ff47f4cb9",
+        "email": "Dolly.Bednar2@hotmail.com",
+        "firstName": "Sophia",
+        "lastName": "Johnston-Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/67.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e53f4b31-de44-4482-a931-5e73529898da",
+        "email": "Eileen_Kunze-Gorczany@hotmail.com",
+        "firstName": "Luis",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90674803",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "5edf2f67-14e4-4cb9-88ae-f3661be69271",
+        "name": "Tool A",
+        "availability": true,
+        "created_at": "2023-08-11T06:33:40.629Z",
+        "updated_at": "2023-08-11T06:24:43.700Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "463fa325-ef5f-4bc7-9b3d-0a4a6236a0d4",
+        "name": "Tool B",
+        "availability": false,
+        "created_at": "2023-08-10T19:33:50.947Z",
+        "updated_at": "2023-08-10T18:32:17.302Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ea0c35d4-f911-417d-8d1c-f1d6c65ed587",
+        "name": "Tool C",
+        "availability": true,
+        "created_at": "2023-08-10T20:35:47.169Z",
+        "updated_at": "2023-08-11T01:02:56.309Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "174cf610-59ff-4288-ac2d-f3eb0448201f",
+        "name": "Tool D",
+        "availability": false,
+        "created_at": "2023-08-10T09:21:26.480Z",
+        "updated_at": "2023-08-10T10:09:53.408Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "082ce9e1-2c73-49f4-b28f-211ad080577b",
+        "name": "Tool E",
+        "availability": true,
+        "created_at": "2023-08-11T03:25:36.610Z",
+        "updated_at": "2023-08-11T04:04:00.221Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "a938f1f1-1cac-4a2a-af6b-6cb6c428fe73",
+        "rent_date": "2023-08-10T22:56:35.840Z",
+        "return_date": "2023-08-10T18:30:47.567Z",
+        "created_at": "2023-08-10T11:55:22.934Z",
+        "updated_at": "2023-08-10T18:43:45.976Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "463fa325-ef5f-4bc7-9b3d-0a4a6236a0d4"
+      },
+      {
+        "id": "6a5c7472-ba8c-4ced-9da6-959f1228fd7f",
+        "rent_date": "2023-08-10T15:53:00.054Z",
+        "return_date": "2023-08-10T20:20:10.908Z",
+        "created_at": "2023-08-10T16:48:42.947Z",
+        "updated_at": "2023-08-11T04:15:22.696Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "463fa325-ef5f-4bc7-9b3d-0a4a6236a0d4"
+      },
+      {
+        "id": "466ff870-cabb-4281-bdac-8ea30299e1e8",
+        "rent_date": "2023-08-11T01:06:03.146Z",
+        "return_date": "2023-08-10T08:05:24.341Z",
+        "created_at": "2023-08-11T01:36:56.066Z",
+        "updated_at": "2023-08-10T14:43:54.893Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "082ce9e1-2c73-49f4-b28f-211ad080577b"
+      },
+      {
+        "id": "97ca1edc-8135-4d59-af46-b6390bd6d8ce",
+        "rent_date": "2023-08-11T06:11:43.809Z",
+        "return_date": "2023-08-11T03:55:32.172Z",
+        "created_at": "2023-08-11T04:46:37.531Z",
+        "updated_at": "2023-08-11T01:53:47.810Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ea0c35d4-f911-417d-8d1c-f1d6c65ed587"
+      },
+      {
+        "id": "cdaefca4-8cda-41e3-94d4-ab4bb5b4b71f",
+        "rent_date": "2023-08-10T20:40:53.242Z",
+        "return_date": "2023-08-11T04:44:29.971Z",
+        "created_at": "2023-08-10T14:36:58.507Z",
+        "updated_at": "2023-08-10T22:29:50.143Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ea0c35d4-f911-417d-8d1c-f1d6c65ed587"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "efd44924-8a16-4aa3-aa0b-d8293700b077",
+        "email": "Fidel_Hansen@yahoo.com",
+        "firstName": "Stuart",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79111370",
+        "tenantId": null
+      },
+      {
+        "reference": "eef904c1-9c05-4792-84a5-3acfbc66f5a2",
+        "email": "Eloisa53@gmail.com",
+        "firstName": "Mariah",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/231.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "678c725e-9973-462c-8c83-a4683bc2f00e",
+        "email": "Madyson_McClure@yahoo.com",
+        "firstName": "Roscoe",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52436633",
+        "tenantId": null
+      },
+      {
+        "reference": "514a4188-6eb9-4eef-9238-7cc4152b4bea",
+        "email": "Drew.McDermott@gmail.com",
+        "firstName": "Idella",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a6bef34-334d-4687-9da8-6cca6d1dd95d",
+        "email": "Jody_Veum@hotmail.com",
+        "firstName": "Myra",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74296276",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "adb59bf7-3462-4653-9e92-d9707ef16e0c",
+        "name": "Tool A",
+        "availability": false,
+        "created_at": "2023-08-11T03:29:18.545Z",
+        "updated_at": "2023-08-11T05:15:20.379Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4cce23c-904d-4407-9d3d-5736557c8446",
+        "name": "Tool B",
+        "availability": true,
+        "created_at": "2023-08-10T19:53:05.538Z",
+        "updated_at": "2023-08-11T04:20:14.529Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ddda0e5-440e-4cd3-88d3-9faa97e80613",
+        "name": "Tool C",
+        "availability": true,
+        "created_at": "2023-08-10T23:54:33.561Z",
+        "updated_at": "2023-08-10T10:39:04.309Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4f27d87-e87a-4527-8448-40dc18a4ef5e",
+        "name": "Tool D",
+        "availability": true,
+        "created_at": "2023-08-10T16:32:05.066Z",
+        "updated_at": "2023-08-10T18:15:53.598Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6b8626e2-1b2a-41bf-bac8-4d4b0896353d",
+        "name": "Tool E",
+        "availability": false,
+        "created_at": "2023-08-10T22:40:49.987Z",
+        "updated_at": "2023-08-10T20:42:55.992Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "de376f57-b6d0-42b5-b5e3-405bb330648b",
+        "rent_date": "2023-08-10T14:43:07.334Z",
+        "return_date": "2023-08-10T23:14:15.057Z",
+        "created_at": "2023-08-10T10:33:09.078Z",
+        "updated_at": "2023-08-10T11:34:21.384Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e4f27d87-e87a-4527-8448-40dc18a4ef5e"
+      },
+      {
+        "id": "aeadf132-679a-4b59-96cc-937188918f2b",
+        "rent_date": "2023-08-11T00:53:35.439Z",
+        "return_date": "2023-08-10T21:59:43.950Z",
+        "created_at": "2023-08-10T08:21:25.295Z",
+        "updated_at": "2023-08-10T22:22:24.335Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "adb59bf7-3462-4653-9e92-d9707ef16e0c"
+      },
+      {
+        "id": "95aeafca-d890-40e8-9d73-48a56db2702b",
+        "rent_date": "2023-08-10T08:19:02.721Z",
+        "return_date": "2023-08-10T16:28:23.133Z",
+        "created_at": "2023-08-10T20:08:15.971Z",
+        "updated_at": "2023-08-10T10:01:44.123Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "b4cce23c-904d-4407-9d3d-5736557c8446"
+      },
+      {
+        "id": "c0f945d7-a84a-4970-ab46-a1ab0f32a586",
+        "rent_date": "2023-08-10T16:19:45.923Z",
+        "return_date": "2023-08-10T11:56:34.885Z",
+        "created_at": "2023-08-11T04:54:35.534Z",
+        "updated_at": "2023-08-10T18:02:37.439Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6b8626e2-1b2a-41bf-bac8-4d4b0896353d"
+      },
+      {
+        "id": "a27c5faa-af05-499d-97a8-f1cc8fca8342",
+        "rent_date": "2023-08-10T17:06:42.761Z",
+        "return_date": "2023-08-11T04:13:37.041Z",
+        "created_at": "2023-08-10T21:09:46.806Z",
+        "updated_at": "2023-08-11T04:01:30.390Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e4f27d87-e87a-4527-8448-40dc18a4ef5e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "66e54902-65d7-4ded-9152-0945371c78d9",
+        "email": "Malcolm_DuBuque64@gmail.com",
+        "firstName": "Andreanne",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "475cf9ef-6912-4281-8736-55e3889fa67a",
+        "email": "Tomas.Weissnat@gmail.com",
+        "firstName": "Nyah",
+        "lastName": "Cummings-Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87900643",
+        "tenantId": null
+      },
+      {
+        "reference": "0cdd9294-83c8-41f8-99db-2d7e14cbcdb1",
+        "email": "Gilbert_Auer40@hotmail.com",
+        "firstName": "Pierre",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/618.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "98fa34ad-caa0-4b06-bcd7-13dcf8f5fd85",
+        "email": "Dovie.Quigley@hotmail.com",
+        "firstName": "Muhammad",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e85fcb8b-d8bc-4038-bf89-1a97dd422c8b",
+        "email": "Brannon21@hotmail.com",
+        "firstName": "Angel",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "2761dfb0-5c06-4a61-9185-a376be162020",
+        "name": "Productivity Tool",
+        "availability": false,
+        "created_at": "2023-08-10T18:00:23.266Z",
+        "updated_at": "2023-08-11T06:18:08.249Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dae75a97-8de6-4cd4-8bb7-e78d814831ec",
+        "name": "Collaboration Tool",
+        "availability": true,
+        "created_at": "2023-08-11T02:01:05.911Z",
+        "updated_at": "2023-08-11T02:47:35.594Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8ae94b28-8062-4226-ac71-e3947429fc25",
+        "name": "Analytics Tool",
+        "availability": true,
+        "created_at": "2023-08-10T18:56:32.944Z",
+        "updated_at": "2023-08-10T14:42:54.952Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "117224be-08de-43dd-bd10-02c1f8433143",
+        "name": "Project Management Tool",
+        "availability": false,
+        "created_at": "2023-08-10T13:08:31.332Z",
+        "updated_at": "2023-08-11T04:58:19.559Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "487c78b4-0a43-413c-a94f-d2c8cbc67905",
+        "name": "Communication Tool",
+        "availability": false,
+        "created_at": "2023-08-10T19:30:09.407Z",
+        "updated_at": "2023-08-10T15:43:10.469Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "082585b9-bff4-4516-b564-3fcc964857b4",
+        "rent_date": "2023-08-10T16:04:11.123Z",
+        "return_date": "2023-08-10T22:33:47.431Z",
+        "created_at": "2023-08-10T19:47:36.650Z",
+        "updated_at": "2023-08-10T20:00:15.432Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "487c78b4-0a43-413c-a94f-d2c8cbc67905"
+      },
+      {
+        "id": "b21fe760-9e68-4b80-98e6-4c23b3ff6a1a",
+        "rent_date": "2023-08-10T21:21:00.276Z",
+        "return_date": "2023-08-10T07:38:38.829Z",
+        "created_at": "2023-08-10T09:42:02.478Z",
+        "updated_at": "2023-08-11T06:41:06.921Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2761dfb0-5c06-4a61-9185-a376be162020"
+      },
+      {
+        "id": "da38db86-4c12-4774-879b-adecb6cc9a77",
+        "rent_date": "2023-08-10T21:09:07.262Z",
+        "return_date": "2023-08-11T00:33:26.046Z",
+        "created_at": "2023-08-10T12:28:03.386Z",
+        "updated_at": "2023-08-11T02:49:37.753Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2761dfb0-5c06-4a61-9185-a376be162020"
+      },
+      {
+        "id": "16666ca3-fb03-4cfc-a7c3-36148862d7b2",
+        "rent_date": "2023-08-10T22:34:42.034Z",
+        "return_date": "2023-08-11T05:27:52.362Z",
+        "created_at": "2023-08-11T04:38:47.616Z",
+        "updated_at": "2023-08-10T08:53:01.066Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "487c78b4-0a43-413c-a94f-d2c8cbc67905"
+      },
+      {
+        "id": "068d39a8-3404-4aaa-8519-83b810fd8309",
+        "rent_date": "2023-08-11T01:27:16.880Z",
+        "return_date": "2023-08-10T16:09:55.879Z",
+        "created_at": "2023-08-10T23:52:55.990Z",
+        "updated_at": "2023-08-11T03:54:46.221Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "8ae94b28-8062-4226-ac71-e3947429fc25"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "689f1c3b-3914-4ec9-a779-920144dbd2dd",
+        "email": "Jaron.Franecki98@yahoo.com",
+        "firstName": "Heather",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99394190",
+        "tenantId": null
+      },
+      {
+        "reference": "347c5d80-d40a-46bf-b50b-a859a7b03f33",
+        "email": "Damien69@gmail.com",
+        "firstName": "Andreane",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90933751",
+        "tenantId": null
+      },
+      {
+        "reference": "47a549ef-9067-48e3-a122-d975c8614b13",
+        "email": "Darrion71@yahoo.com",
+        "firstName": "Joanny",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2010bf5-d54e-4cd6-be84-4ed5877abc6f",
+        "email": "Jeramie.Rogahn56@hotmail.com",
+        "firstName": "Uriah",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51302307",
+        "tenantId": null
+      },
+      {
+        "reference": "af87d111-d8ba-4c61-ab03-8669bc98539e",
+        "email": "Jason_Stokes19@gmail.com",
+        "firstName": "Chanelle",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28131419",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "eb566c1f-64fc-4dac-a2ba-5b36c668a028",
+        "name": "Tool A",
+        "availability": true,
+        "created_at": "2023-08-10T09:34:46.911Z",
+        "updated_at": "2023-08-10T11:24:17.923Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41d0ec53-bf69-46e3-a51d-37387eadf768",
+        "name": "Tool B",
+        "availability": true,
+        "created_at": "2023-08-10T18:46:44.140Z",
+        "updated_at": "2023-08-10T10:13:53.353Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "410415a9-a202-4cf4-a36d-3919087c4048",
+        "name": "Tool C",
+        "availability": false,
+        "created_at": "2023-08-11T06:29:28.169Z",
+        "updated_at": "2023-08-10T17:21:33.986Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a20f2ab5-1944-4d67-9b8c-c8430c065a28",
+        "name": "Tool D",
+        "availability": true,
+        "created_at": "2023-08-10T08:36:40.581Z",
+        "updated_at": "2023-08-10T19:47:53.862Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "75d3db08-0d71-4c8b-a3fa-a3e3b2514b7d",
+        "name": "Tool E",
+        "availability": true,
+        "created_at": "2023-08-11T04:02:56.060Z",
+        "updated_at": "2023-08-10T08:36:03.718Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "65384d27-1379-4728-8c3e-1b3b6b4ed77d",
+        "rent_date": "2023-08-10T19:59:49.030Z",
+        "return_date": "2023-08-10T20:58:43.877Z",
+        "created_at": "2023-08-10T19:27:15.236Z",
+        "updated_at": "2023-08-10T14:47:08.426Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "eb566c1f-64fc-4dac-a2ba-5b36c668a028"
+      },
+      {
+        "id": "075a45da-9fa7-46d6-a0e1-0ad035c8859e",
+        "rent_date": "2023-08-11T06:19:01.634Z",
+        "return_date": "2023-08-10T20:28:04.824Z",
+        "created_at": "2023-08-10T14:26:25.812Z",
+        "updated_at": "2023-08-10T20:55:36.739Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "41d0ec53-bf69-46e3-a51d-37387eadf768"
+      },
+      {
+        "id": "49abca24-cf70-4f97-a9a0-10e1b18d78dd",
+        "rent_date": "2023-08-10T18:20:17.700Z",
+        "return_date": "2023-08-10T11:38:57.150Z",
+        "created_at": "2023-08-11T06:05:44.901Z",
+        "updated_at": "2023-08-10T09:01:48.203Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "41d0ec53-bf69-46e3-a51d-37387eadf768"
+      },
+      {
+        "id": "6dd880b0-3eb4-496b-bffb-ce1d3b9d624b",
+        "rent_date": "2023-08-10T19:14:24.846Z",
+        "return_date": "2023-08-11T02:04:04.597Z",
+        "created_at": "2023-08-10T16:39:18.840Z",
+        "updated_at": "2023-08-11T03:42:41.863Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a20f2ab5-1944-4d67-9b8c-c8430c065a28"
+      },
+      {
+        "id": "0e04a216-ceb0-4979-96f6-35ff19a8d13b",
+        "rent_date": "2023-08-11T05:57:35.863Z",
+        "return_date": "2023-08-11T03:29:14.124Z",
+        "created_at": "2023-08-11T01:37:39.535Z",
+        "updated_at": "2023-08-10T13:39:30.393Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "75d3db08-0d71-4c8b-a3fa-a3e3b2514b7d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "48a110a3-9464-4404-a281-348946cb15b9",
+        "email": "Mittie.Tremblay@gmail.com",
+        "firstName": "Earl",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71408172",
+        "tenantId": null
+      },
+      {
+        "reference": "d54441ea-94ca-403d-96ed-276495d974a3",
+        "email": "Lamont59@yahoo.com",
+        "firstName": "Annabelle",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53891048",
+        "tenantId": null
+      },
+      {
+        "reference": "f6b3ac31-6a72-4764-9617-ddbcd2f4970d",
+        "email": "Abbey.Dibbert3@hotmail.com",
+        "firstName": "Cristian",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/347.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2332b55e-730e-4359-9d32-4a6628b025e1",
+        "email": "Allan_Ryan-Kunze@hotmail.com",
+        "firstName": "Moises",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5651001",
+        "tenantId": null
+      },
+      {
+        "reference": "42450079-ec13-4b58-9fb4-24105b1c8eb8",
+        "email": "Donny.Donnelly93@yahoo.com",
+        "firstName": "Schuyler",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48320577",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "a087c82a-ad27-46c0-b76b-4648d6503548",
+        "name": "Productivity Tool",
+        "availability": true,
+        "created_at": "2023-08-10T08:45:51.410Z",
+        "updated_at": "2023-08-10T11:33:06.226Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "827228b8-9c0f-43a9-88df-0a17fe4fcd35",
+        "name": "Collaboration Tool",
+        "availability": false,
+        "created_at": "2023-08-10T11:20:35.662Z",
+        "updated_at": "2023-08-11T02:18:44.155Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ccb39a54-50c0-4a18-87ad-bb15c69c73f5",
+        "name": "Analytics Tool",
+        "availability": true,
+        "created_at": "2023-08-11T02:03:15.094Z",
+        "updated_at": "2023-08-11T05:25:18.043Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "879216fe-67f6-4305-b916-9072d6a9732e",
+        "name": "Project Management Tool",
+        "availability": false,
+        "created_at": "2023-08-10T23:09:43.628Z",
+        "updated_at": "2023-08-10T15:09:11.883Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7fc7689d-778a-498d-aacb-001f321dde49",
+        "name": "Communication Tool",
+        "availability": true,
+        "created_at": "2023-08-10T21:50:50.979Z",
+        "updated_at": "2023-08-11T04:40:55.041Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "11e33702-985f-42a3-88b4-e671f8c645b0",
+        "rent_date": "2023-08-10T07:08:56.722Z",
+        "return_date": "2023-08-10T20:51:16.153Z",
+        "created_at": "2023-08-10T07:26:01.447Z",
+        "updated_at": "2023-08-10T12:45:09.365Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "879216fe-67f6-4305-b916-9072d6a9732e"
+      },
+      {
+        "id": "0b4914f1-25c7-49cf-bbae-ee5b1f234c0d",
+        "rent_date": "2023-08-10T09:30:39.317Z",
+        "return_date": "2023-08-10T14:59:55.690Z",
+        "created_at": "2023-08-10T19:41:30.257Z",
+        "updated_at": "2023-08-10T18:14:23.741Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a087c82a-ad27-46c0-b76b-4648d6503548"
+      },
+      {
+        "id": "a649c2d7-7c36-4bb6-a4a7-b0e9fd0e16ef",
+        "rent_date": "2023-08-10T10:42:46.471Z",
+        "return_date": "2023-08-10T08:04:17.460Z",
+        "created_at": "2023-08-10T09:29:00.681Z",
+        "updated_at": "2023-08-11T01:12:37.413Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a087c82a-ad27-46c0-b76b-4648d6503548"
+      },
+      {
+        "id": "5fc338a8-ac89-4714-b185-c76d41d7bd42",
+        "rent_date": "2023-08-11T06:42:27.072Z",
+        "return_date": "2023-08-11T03:34:20.268Z",
+        "created_at": "2023-08-11T01:43:48.321Z",
+        "updated_at": "2023-08-11T02:40:40.904Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a087c82a-ad27-46c0-b76b-4648d6503548"
+      },
+      {
+        "id": "1293415a-dee0-4ae8-b5be-7e4b36c2fa16",
+        "rent_date": "2023-08-10T22:45:16.095Z",
+        "return_date": "2023-08-10T21:24:18.011Z",
+        "created_at": "2023-08-10T15:11:02.844Z",
+        "updated_at": "2023-08-11T02:24:02.227Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "ccb39a54-50c0-4a18-87ad-bb15c69c73f5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bf01f258-f0b0-4d74-8006-10f50804aec1",
+        "email": "Ima23@hotmail.com",
+        "firstName": "Leanna",
+        "lastName": "Heller-Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/756.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b111d13-f4c4-45c3-99ab-532759032280",
+        "email": "Magali.Jakubowski41@yahoo.com",
+        "firstName": "Mikayla",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1073.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b59a0a15-8bb8-479c-873c-475720f94f80",
+        "email": "Justice.Turcotte@hotmail.com",
+        "firstName": "Kirsten",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13499816",
+        "tenantId": null
+      },
+      {
+        "reference": "12908853-44a9-4d55-ae57-b11e67302428",
+        "email": "Suzanne80@hotmail.com",
+        "firstName": "Cora",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/964.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1a880c1-8670-4a57-9d44-e9e66e2fa2c0",
+        "email": "Bennie49@gmail.com",
+        "firstName": "Ned",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80604719",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "e7f46186-d704-42ee-8f1e-1c567574c87a",
+        "name": "Productivity Tool",
+        "availability": false,
+        "created_at": "2023-08-10T16:44:14.770Z",
+        "updated_at": "2023-08-10T10:20:00.249Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0fe8b907-3caf-4cf6-a25b-3a1f507b1677",
+        "name": "Collaboration Tool",
+        "availability": true,
+        "created_at": "2023-08-11T02:26:38.358Z",
+        "updated_at": "2023-08-11T03:07:14.805Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "82193b0d-2798-4267-85b0-40c8eed6eee9",
+        "name": "Analytics Tool",
+        "availability": false,
+        "created_at": "2023-08-10T16:46:33.751Z",
+        "updated_at": "2023-08-11T03:05:20.210Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3395701-d450-46a8-bd88-2df7116aadc0",
+        "name": "Project Management Tool",
+        "availability": true,
+        "created_at": "2023-08-10T13:09:39.314Z",
+        "updated_at": "2023-08-10T11:11:01.335Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e45b1214-3cf6-44eb-9862-5e633fa28690",
+        "name": "Communication Tool",
+        "availability": false,
+        "created_at": "2023-08-10T15:06:05.587Z",
+        "updated_at": "2023-08-10T12:48:11.809Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d9e9161a-0dbf-49a5-9f67-aebceb21afea",
+        "rent_date": "2023-08-10T11:22:50.351Z",
+        "return_date": "2023-08-10T13:57:27.769Z",
+        "created_at": "2023-08-11T00:54:58.900Z",
+        "updated_at": "2023-08-10T10:13:36.770Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e45b1214-3cf6-44eb-9862-5e633fa28690"
+      },
+      {
+        "id": "12bcd575-1a70-4e6b-8f7b-39a2ae94f3cf",
+        "rent_date": "2023-08-10T09:18:55.627Z",
+        "return_date": "2023-08-10T14:31:16.618Z",
+        "created_at": "2023-08-10T08:05:53.898Z",
+        "updated_at": "2023-08-10T12:52:31.742Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "82193b0d-2798-4267-85b0-40c8eed6eee9"
+      },
+      {
+        "id": "e20dd948-3c84-41fb-8779-55e168791ef7",
+        "rent_date": "2023-08-11T03:18:29.900Z",
+        "return_date": "2023-08-10T17:11:26.234Z",
+        "created_at": "2023-08-10T22:37:21.797Z",
+        "updated_at": "2023-08-11T04:55:13.263Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e45b1214-3cf6-44eb-9862-5e633fa28690"
+      },
+      {
+        "id": "3b74d5ec-b455-4918-8a02-1a1beac521b1",
+        "rent_date": "2023-08-10T18:29:39.969Z",
+        "return_date": "2023-08-10T23:22:14.080Z",
+        "created_at": "2023-08-10T13:48:38.318Z",
+        "updated_at": "2023-08-10T08:17:48.069Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "82193b0d-2798-4267-85b0-40c8eed6eee9"
+      },
+      {
+        "id": "3c438778-b47e-47ee-be10-934134db9dce",
+        "rent_date": "2023-08-11T01:58:38.488Z",
+        "return_date": "2023-08-10T12:39:54.076Z",
+        "created_at": "2023-08-11T04:34:13.042Z",
+        "updated_at": "2023-08-11T06:09:08.541Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e45b1214-3cf6-44eb-9862-5e633fa28690"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "64c9be3c-6b8e-462e-830c-fd4fb34e2b06",
+        "email": "Nasir.Windler@gmail.com",
+        "firstName": "Casimer",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d1ba2be7-e2a2-450b-9884-7b7fb4aa2d96",
+        "email": "Reilly_Breitenberg70@hotmail.com",
+        "firstName": "Macie",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4323015-ca06-463a-bfa1-17116a39da2c",
+        "email": "Roman.Ortiz54@yahoo.com",
+        "firstName": "Raul",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1164.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a37f7308-bfbe-4413-b2e5-b55c60e6aee0",
+        "email": "Roberta_Grimes-Boyle86@gmail.com",
+        "firstName": "Tremayne",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49730247",
+        "tenantId": null
+      },
+      {
+        "reference": "b3c69a1f-5500-4042-9a25-0ebcbc52cde6",
+        "email": "Kyle37@hotmail.com",
+        "firstName": "Aurore",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39686509",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "ca6daf0e-0b1b-4675-8a2a-c06ebbf3c911",
+        "name": "Tool A",
+        "availability": true,
+        "created_at": "2023-08-10T10:01:54.517Z",
+        "updated_at": "2023-08-10T16:09:18.777Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "32cc286c-7e13-4af3-9e79-f05b702891d9",
+        "name": "Tool B",
+        "availability": true,
+        "created_at": "2023-08-11T03:51:21.244Z",
+        "updated_at": "2023-08-10T17:50:47.940Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4b0317a-9aee-4251-8eea-04507ddbdfd7",
+        "name": "Tool C",
+        "availability": false,
+        "created_at": "2023-08-10T22:36:04.628Z",
+        "updated_at": "2023-08-11T01:33:47.354Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8425dc98-b1ef-482e-8d97-30b8a73d9b23",
+        "name": "Tool D",
+        "availability": false,
+        "created_at": "2023-08-11T06:45:34.148Z",
+        "updated_at": "2023-08-10T10:32:51.171Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "324f469d-15bc-4b83-ad5a-5013b63f8453",
+        "name": "Tool E",
+        "availability": true,
+        "created_at": "2023-08-10T15:09:11.350Z",
+        "updated_at": "2023-08-10T13:52:34.832Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "30281fd3-ccaa-4924-b576-979efee5ffe3",
+        "rent_date": "2023-08-11T02:40:19.780Z",
+        "return_date": "2023-08-10T21:55:24.456Z",
+        "created_at": "2023-08-10T21:07:28.597Z",
+        "updated_at": "2023-08-10T08:26:25.895Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a4b0317a-9aee-4251-8eea-04507ddbdfd7"
+      },
+      {
+        "id": "63024dce-f8fe-4562-92eb-4e838746f7f4",
+        "rent_date": "2023-08-10T14:43:50.902Z",
+        "return_date": "2023-08-10T12:44:35.603Z",
+        "created_at": "2023-08-10T09:51:07.040Z",
+        "updated_at": "2023-08-10T11:49:38.635Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a4b0317a-9aee-4251-8eea-04507ddbdfd7"
+      },
+      {
+        "id": "8fba09ea-de0a-447f-91fc-ca8756993bcc",
+        "rent_date": "2023-08-10T18:40:08.921Z",
+        "return_date": "2023-08-10T19:36:28.538Z",
+        "created_at": "2023-08-11T03:20:18.998Z",
+        "updated_at": "2023-08-11T06:01:16.853Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "324f469d-15bc-4b83-ad5a-5013b63f8453"
+      },
+      {
+        "id": "99dd53a1-decc-4f58-808f-98e4f8c28fad",
+        "rent_date": "2023-08-10T09:42:42.375Z",
+        "return_date": "2023-08-11T00:28:19.237Z",
+        "created_at": "2023-08-10T10:01:35.149Z",
+        "updated_at": "2023-08-10T20:28:28.366Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a4b0317a-9aee-4251-8eea-04507ddbdfd7"
+      },
+      {
+        "id": "9dc3291f-5007-4cef-bac4-4fd444e2842f",
+        "rent_date": "2023-08-10T11:54:50.197Z",
+        "return_date": "2023-08-11T04:49:23.368Z",
+        "created_at": "2023-08-10T18:25:06.098Z",
+        "updated_at": "2023-08-10T13:48:13.243Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "8425dc98-b1ef-482e-8d97-30b8a73d9b23"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "621edc9d-dc56-42b1-a9a0-a437c94fa474",
+        "email": "Herta.Turner@hotmail.com",
+        "firstName": "Bonnie",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/546.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77aeb60d-082d-4f99-85da-93b7aaaa6ed8",
+        "email": "Emie_Kuvalis@yahoo.com",
+        "firstName": "Chester",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8454650",
+        "tenantId": null
+      },
+      {
+        "reference": "9c5a01f7-9bd5-4a49-b4ce-f6a1ca6fec67",
+        "email": "Adam24@hotmail.com",
+        "firstName": "Jayce",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23237123",
+        "tenantId": null
+      },
+      {
+        "reference": "d1e33433-785e-47fa-97a3-69f31aeac81f",
+        "email": "Zella66@yahoo.com",
+        "firstName": "Shany",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/621.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6dbafbf-2436-4653-9eef-b8f026386c52",
+        "email": "Thelma36@gmail.com",
+        "firstName": "Bessie",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1071.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]

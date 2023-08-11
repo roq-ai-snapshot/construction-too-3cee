@@ -1,0 +1,23 @@
+import { RentalInterface } from 'interfaces/rental';
+import { CompanyInterface } from 'interfaces/company';
+import { GetQueryInterface } from 'interfaces';
+
+export interface ToolInterface {
+  id?: string;
+  name: string;
+  company_id: string;
+  availability?: boolean;
+  created_at?: any;
+  updated_at?: any;
+  rental?: RentalInterface[];
+  company?: CompanyInterface;
+  _count?: {
+    rental?: number;
+  };
+}
+
+export interface ToolGetQueryInterface extends GetQueryInterface {
+  id?: string;
+  name?: string;
+  company_id?: string;
+}
